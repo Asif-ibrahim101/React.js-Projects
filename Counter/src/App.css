@@ -1,0 +1,48 @@
+.body_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 2rem;
+}
+
+.heading h2{
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.counter{
+    color: white;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.increase_main{
+    margin: 0 1rem;
+}
+
+.increase{
+    background-color: green;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.decrease{
+    background-color: red;
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.decrease:disabled{
+    background-color: darkred;
+}
